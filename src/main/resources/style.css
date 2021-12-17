@@ -1,0 +1,168 @@
+h1, h3, h4 {
+    color: #756158;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+
+body {
+    color: #282425;
+    background-color: #fff1e6;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    margin: 0;
+    color: white;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 7);
+}
+
+h3 {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 0;
+}
+
+h4 {
+    font-size: 24px;
+    margin-top: 36px;
+}
+
+a {
+    font-style: italic;
+}
+
+.fotografie, .kontakt {
+    background-color: #f9e3d0;
+}
+
+.paticka {
+    background-color: #282425;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
+
+.foto-nove {
+    width: 300px;
+    border-radius: 50%;
+    float: left;
+    margin: 0 30px 30px 0;
+}
+
+.fotografie img {
+    width: 30%;
+    border: 2px solid #756158;
+    border-radius: 10px;
+}
+
+.foto-produkty {
+    width: 350px;
+    border-radius: 0 50px 50px 50px;
+    float: left;
+    margin: 0 0 30px 30px;
+}
+
+.foto-kontakt {
+    width: 350px;
+    border-radius: 50px 0 50px 50px;
+    float: left;
+    margin: 0 30px 30px 0;
+}
+
+table {
+    border-spacing: 0;
+}
+
+td, tr {
+    border-bottom: 1px solid black;
+    text-align: left;
+    padding: 15px 15px;
+}
+
+
+section {
+    padding: 50px 15%;
+    overflow: auto;
+}
+
+.hlavicka {
+    padding: 150px 30px;
+    background: url("pictures/jasminek_logo_oval.jpg") no-repeat center;
+    background-size: 420px;
+}
+
+.hlavicka2 {
+    padding: 150px 30px;
+    background: url("pictures/jasmin_kvet2.png") no-repeat center;
+    background-size: cover;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #282425;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: #756158;
+}
+
+input[type=submit] {
+    background-color: #756158;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: lightgray;
+}
+
+.formular {
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #fff1e6;
+}
+
+textarea {
+    width: 60%;
+    height: 80px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 3px;
+    margin-bottom: 3px;
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=email] {
+    width: 30%;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical
+}
